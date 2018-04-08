@@ -1,0 +1,8 @@
+1，git init 初始化
+2，git add .添加到本地仓库 git status 查看状态
+3，git commit -m "描述" 提交到仓库
+4，$ ssh-keygen -t rsa -C "youremail@example.com" 创建公钥私钥
+5，找到id_rsa.pub复制到github上
+6，在github上new一个新仓库，记住仓库地址
+7，git remote add origin https://github.com/guyibang/TEST2.git  在origin后面输入自己的仓库地址
+8，git push -u origin master第一次上传加-u，下次再上传就不需要了，直接git push origin master
